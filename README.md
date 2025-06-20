@@ -1,2 +1,2 @@
-<img scr='example.png'>
+<img src='example.png'>
 <p>That is</p>
