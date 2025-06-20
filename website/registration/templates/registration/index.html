@@ -1,0 +1,20 @@
+{% extends "registration/layout.html" %}
+{% load static %}
+{% block title %}{{title}}{% endblock title %}
+
+
+{% block content %}
+    <div class="features">
+        <h1>{{title}}</h1>
+        <div class='projects'>
+            <p>The first game created by pygame</p>
+            <img src='{% static "registration/img/screenshots/first_pygame_experience.png" %}'>
+            <ul>
+                <a href="{% url "home" %}"><li><i class="fa-brands fa-github-alt"></i>Click to check</li></a>
+            </ul>
+        </div>
+
+        
+    </div>
+    
+{% endblock content%}

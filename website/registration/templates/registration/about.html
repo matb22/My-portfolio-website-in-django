@@ -1,0 +1,16 @@
+{% extends "registration/layout.html" %}
+
+{% block title %}{{title}}{% endblock title %}
+
+
+{% block content %}
+    <div class="features">
+        <h1>{{title}}</h1>
+        <p>I just want to work as a programmer.</p>
+        <p>At now I can work with : django , html , js , css , bootstrap , jinja - something of these you can check in this project</p>
+        <p>Also I can create telegramm bots with aiogramm 2.0 , telebot</p>
+        <p>I have some experience in datebase like sqlite3</p>
+        <p>You can find more information in my git profile.</p>
+        {% include "registration/test.html" %}
+    </div>
+{% endblock content%}
