@@ -1,0 +1,1 @@
+<img scr='example.png'>
